@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1629429859960_1" label="Window Working Set" name="Aggregate for window 1629429859960"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1629441863807_6" label="Multiple Working Sets" name="Aggregate:jeecg-boot-parent:jeecg-boot-starter:"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1629441900838_8" label="Multiple Working Sets" name="Aggregate:jeecg-boot-module:jeecg-boot-parent:jeecg-boot-starter:"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1629442020894_10" label="Multiple Working Sets" name="Aggregate:jeecg-boot-module:jeecg-boot-starter:"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1629442239951_12" label="Multiple Working Sets" name="Aggregate:jeecg-boot-module:jeecg-boot-starter:jeecg-cloud-module:"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1629445070390_15" label="Multiple Working Sets" name="Aggregate:jeecg-boot-module:jeecg-boot-starter:jeecg-cloud-module:otohers:"/>
+</workingSetManager>

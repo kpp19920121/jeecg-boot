@@ -356,7 +356,7 @@ public class DlMockController {
             beginIndex = 0;
             endIndex = dataDB.size();
         } else {
-            page = new Page<>(pageNo, pageSize);
+            page = new Page<JSONObject>(pageNo, pageSize);
             beginIndex = page.offset();
             endIndex = page.offset() + page.getSize();
         }

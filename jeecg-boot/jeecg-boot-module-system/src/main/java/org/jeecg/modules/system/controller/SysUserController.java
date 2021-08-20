@@ -750,7 +750,7 @@ public class SysUserController {
             }
         }
 
-        IPage<JSONObject> result = new Page<>(pageNo, pageSize, pageList.getTotal());
+        IPage<JSONObject> result = new Page<JSONObject>(pageNo, pageSize, pageList.getTotal());
         result.setRecords(resultJson.toJavaList(JSONObject.class));
         return Result.ok(result);
     }
@@ -1115,7 +1115,7 @@ public class SysUserController {
             }else{
                 query.and(i -> i.like(SysUser::getUsername, keyword).or().like(SysUser::getRealname, keyword));
             }
-			Page<SysUser> page = new Page<>(pageNo, pageSize);
+			Page<SysUser> page = new Page<SysUser>(pageNo, pageSize);
 			IPage<SysUser> res = this.sysUserService.page(page, query);
 			return Result.ok(res);
 		} catch (Exception e) {
